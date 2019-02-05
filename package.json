@@ -1,7 +1,10 @@
 {
   "name": "vue-test-library",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/testlib.umd.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name testlib src/plugin.js",
