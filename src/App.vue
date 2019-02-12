@@ -10,7 +10,5 @@ export default {
 }
 </script>
 <style>
-.blue {
-  color: blue;
-}
+@import "./styles/app.css";
 </style>
